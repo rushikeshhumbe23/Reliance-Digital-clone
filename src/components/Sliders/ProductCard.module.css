@@ -1,0 +1,59 @@
+.containar{
+    width: 75%;
+    margin :auto;
+    padding:15px;
+}
+.containar >  div:nth-child(1){
+    transition: 0.3s;
+}
+.containar >  div:nth-child(1):hover{
+    transform: scale(1.1);
+}
+.containar p   ,.containar h3 {
+    margin:0px;
+    padding-bottom: 3px;
+}
+.Offers{
+    border: 1px solid green;
+    padding:0px 7px 2px 7px;
+    color:green;
+    background-color: rgba(138, 218, 191, 0.475);
+    font-size: 8px;
+    border-radius: 15px;
+}
+.productName{
+    color:rgb(62, 125, 214);
+    font-size: 14px;
+    letter-spacing:-0.1px;
+    padding-bottom: 0px;
+
+}
+.productName:hover{
+    color:rgb(243, 52, 35);
+    cursor: pointer;  
+}
+.para{
+    font-size: 12px;
+    color:rgb(99, 98, 103);
+}
+.containar h3{
+    font-size: 12px;
+}
+@media (max-width:1150px) {
+    .containar{
+        width: 250px;  
+    }
+}
+
+@media (max-width:1010px) {
+    .containar{
+        width: 175px;  
+    }
+    .containar p{
+        font-size: 12px;
+    }
+    .containar h3{
+        font-size: 16px
+    }
+}
+

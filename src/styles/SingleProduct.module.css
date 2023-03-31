@@ -1,0 +1,29 @@
+.containar{
+    width: 300px;
+    margin :auto;
+    /* border: 1px solid ; */
+    padding:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.containar p   ,.containar h3 {
+    margin:0px;
+    padding: 0px;
+}
+.Offers{
+    border: 1px solid green;
+    padding:0px 7px 2px 7px;
+    color:green;
+    background-color: rgba(138, 218, 191, 0.475);
+    font-size: 10px;
+    border-radius: 15px;
+}
+.productName{
+    color:rgb(62, 125, 214);
+    font-size: 18px;
+    font-weight: 200;
+}
+.productName:hover{
+    color:rgb(243, 52, 35);
+    cursor: pointer;  
+}
+

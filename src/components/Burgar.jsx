@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import VerticalNav from "./VerticalNav";
 function Burgar() {
-  const [open, setopen] = useState(true);
+  const [open, setopen] = useState(false);
 
   return (
     <>

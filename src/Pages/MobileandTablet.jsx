@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import style from "../styles/MobileandTablet.module.css";
 
 function MobileandTablet() {
   return (
-    <div>MobileandTablet</div>
-  )
+    <>
+      <div className={style.empty_mobileandtablet}>Rushi</div>
+    </>
+  );
 }
 
-export default MobileandTablet
+export default MobileandTablet;

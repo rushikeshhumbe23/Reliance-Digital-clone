@@ -1,0 +1,39 @@
+.cont_promise{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    padding: 10px 20px;
+   
+}
+.cont_promise > div{
+    padding: 5px;
+    border: 1px solid rgb(184, 179, 179);
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+}
+.heading_prom{
+    padding: 0px;
+    margin: 0px;
+    color:#25257b; 
+}
+.desc{
+    font-size: 20px;
+    font-weight: 700;
+    color:#25257b ;
+}
+.para_prom{
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    color:gray
+}
+.cont_promise > div:nth-child(3) > img{
+    width:30%;
+}
+@media (max-width:800px) {
+    .cont_promise{
+        grid-template-columns: repeat(2, 1fr);
+        gap:15px;
+        
+    }
+}

@@ -1,0 +1,23 @@
+.grid_cont{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap:25px;
+}
+.grid_cont > div{
+    transition: 0.5s;
+}
+.grid_cont > div:hover{
+    transform: scale(1.1);
+}
+.description_para{
+    font-size: 25px;
+    text-align: justify;
+}
+
+@media (max-width:750px) {
+    .grid_cont{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap:10px;
+    }
+}

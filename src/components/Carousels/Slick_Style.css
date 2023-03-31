@@ -1,0 +1,59 @@
+.slick-next , .slick-prev{
+    background-color:rgb(255, 255, 255);
+    width: 45px;
+    height: 100px;
+    font-size: 30px;
+    overflow: none;
+    margin: 0px 15px;
+    z-index: 10;
+    opacity: 0.4;
+    border: 1.5px solid rgb(220, 220, 220);
+}
+.slick-next:hover  , .slick-prev:hover{
+    background-color: rgb(247, 246, 246);
+    opacity: 0.4;
+}
+.slick-dots{
+    position:absolute;
+    bottom:10px;
+}
+.slick-track{
+    overflow: none;
+}
+.slick-next::before , .slick-prev::before{
+    font-size: 30px;
+    color:black
+}
+.slick-next{
+    position: absolute;
+    right: 5px;
+}
+.slick-prev{
+    position: absolute;
+    left: 5px;
+}
+
+@media (max-width:850px) {
+    .slick-next , .slick-prev{
+       
+        width: 45px;
+        height: 80px;
+        font-size: 35px;
+        
+    }
+    .slick-next::before , .slick-prev::before{
+        font-size: 40px;
+    }
+}
+@media (max-width:650px) {
+    .slick-next , .slick-prev{
+        width: 40px;
+        height: 60px;
+        font-size: 30px;
+       
+    }
+    .slick-next::before , .slick-prev::before{
+        font-size: 30px;
+    }
+}
+

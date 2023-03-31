@@ -123,7 +123,7 @@ function Footer() {
         </p>
         <hr style={{ height: "0.1px", color: "red" }} />
         <p style={{ color: "white", fontSize: "12px", paddingBottom: "10px" }}>
-          © 2023 Infinite Digitals. All Rights Reserved.
+          ❤️ 2023 Infinite Digitals. All Rights Reserved ❤️
         </p>
       </div>
     </div>
