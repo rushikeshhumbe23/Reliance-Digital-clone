@@ -1,0 +1,26 @@
+.empty_div{
+    background-color: #fafafa;
+    width: 100%;
+    height: 157px;
+}
+.all_productBTN{
+    color: white;
+    background-color: #0f287b;
+    border: none;
+    padding: 10px  17px;
+    margin: 25px;
+    border-radius: 18px;
+    border: 1px solid  #0f287b;
+    transition: 0.7s;
+}
+.all_productBTN:hover{
+    color:#0f287b;
+    background-color: white;
+    border: 1px solid  #0f287b;
+    transform: scale(1);
+}
+@media (max-width:1118px) {
+    .empty_div{
+        height: 170px;
+    }
+}

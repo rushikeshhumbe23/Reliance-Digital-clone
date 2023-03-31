@@ -4,55 +4,68 @@ import Burgar from "./Burgar";
 import NavrightList from "./NavrightList";
 import logo from "../Images/logo.PNG";
 import "../styles/NavBar.css";
+import { Navigate, useNavigate } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 function NavBar() {
   const theme = false; // theme context
-  const Nav = styled.nav`
-    width: 100%;
-    height: 55px;
-    border-bottom: 2px solid #f1f1f1;
-    display: flex;
-    margin: 0px;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0 px;
-    z-index: 1;
-    background-color: #f52a2a;
-    color: white;
-    }
-  `;
+  const isAuth = true; //
 
   const links = [
     {
-      path: "/mobileandtablets",
+      path: "/mobileandtablet",
       text: `MOBILES&TABLETS`,
     },
-    { path: "/mobileandtablets", text: "TELEVISIONS" },
-    { path: "/mobileandtablets", text: "AUDIO" },
-    { path: "/mobileandtablets", text: "HOME APPLIANCES" },
-    { path: "/mobileandtablets", text: "COMPUTERS" },
-    { path: "/mobileandtablets", text: "CAMERAS" },
-    { path: "/mobileandtablets", text: "KITCHEN APPLIANCES" },
-    { path: "/mobileandtablets", text: "PERSONAL CARE" },
-    { path: "/mobileandtablets", text: "ACCESSORIES" },
+    { path: "/televisions", text: "TELEVISIONS" },
+    { path: "/audio", text: "AUDIO" },
+    { path: "/homeappliances", text: "HOME APPLIANCES" },
+    { path: "/cumputers", text: "COMPUTERS" },
+    { path: "/cameras", text: "CAMERAS" },
+    { path: "/kitchenappliances", text: "KITCHEN APPLIANCES" },
+    { path: "/personalcare", text: "PERSONAL CARE" },
+    { path: "/accessories", text: "ACCESSORIES" },
   ];
+
+  const navigate = useNavigate();
 
   return (
     <div className="navbar_main">
       <div className="navbar_upper">
-        <ul>
-          <li>Find a store </li>
-          <li>|</li>
-          <li>Buying guides</li>
-          <li>|</li>
-          <li>Contact us</li>
-        </ul>
+        <div
+          style={{
+            fontSize: "20px",
+            paddingLeft: "50px",
+            display: "flex",
+            alignItems: "center",
+            cursor: "pointer",
+            fontWeight: "500",
+            letterSpacing: "-0.5px",
+          }}
+        >
+          <div
+            style={{
+              border: "1px solid",
+              padding: "5px 10px",
+              borderRadius: "10px",
+              backgroundColor: "inherite",
+            }}
+          >
+            {isAuth ? `Hi Rushikesh Humbe 👋` : "Please Login"}
+          </div>
+        </div>
+        <div>
+          <ul>
+            <li>Find a store </li>
+            <li>|</li>
+            <li>Buying guides</li>
+            <li>|</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
       </div>
-      <Nav className="navbar">
-        <div className="logo">
+      <div className="navbar">
+        <div className="logo" onClick={() => navigate("/")}>
           <img src={logo} alt="Infinite Digitals Logo Image" />
         </div>
         <div className="input_container">
@@ -68,18 +81,26 @@ function NavBar() {
 
         <NavrightList />
         <Burgar />
-      </Nav>
+      </div>
       <div className={theme === true ? "navbar_lower_dark" : "navbar_lower"}>
-        {links.map((ele) => {
+        {links.map((ele, i) => {
           return (
-            <div style={{ display: "flex" }}>
-              <Link className="navbar_links" key={ele.path} to={ele.path}>
-                {ele.text}
-              </Link>
-              <KeyboardArrowDownIcon
-                style={{ color: "white", cursor: "pointer" }}
-              />
-            </div>
+            <NavLink
+              key={i + 1}
+              to={ele.path}
+              style={({ isActive }) => {
+                return isActive
+                  ? { textDecoration: "none", backgroundColor: "#f52a2a" }
+                  : { textDecoration: "none", color: "blue" };
+              }}
+            >
+              <div className="navbar_links" key={i + 1}>
+                <p>{ele.text}</p>
+                <KeyboardArrowDownIcon
+                  style={{ color: "white", cursor: "pointer" }}
+                />
+              </div>
+            </NavLink>
           );
         })}
       </div>
@@ -88,3 +109,8 @@ function NavBar() {
 }
 
 export default NavBar;
+
+/*
+
+
+*/
