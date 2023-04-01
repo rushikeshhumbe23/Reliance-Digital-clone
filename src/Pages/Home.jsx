@@ -55,7 +55,7 @@ function Home() {
           Data1={SwiperData3}
           Data2={SwiperData4}
           Img1="https://www.reliancedigital.in/medias/AC-Pine-Offer-Small-Banner-01-03-2023.jpg?context=bWFzdGVyfGltYWdlc3wzMTA3N3xpbWFnZS9qcGVnfGltYWdlcy9oY2QvaGQ0Lzk5Njc3MTUyNTQzMDIuanBnfGY0M2RmMjhkMzZhNGM3NjEyZDNhZTNhNmM1MTllYTAzZDMxYWI0NmNlZjBhZjVjNDA0MDIzZmQ5NWY3YWRlMTQ"
-          Img2="https://www.reliancedigital.in/medias/Philips-MG7715-65-Trimmer-492864867-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNTE0OXxpbWFnZS9qcGVnfGltYWdlcy9oZWIvaDdiLzk4MzE3NzM5Mjk1MDIuanBnfGRiNGVlMmNlMjdhYzdlNjQ2Mzg1MjY2ZTBkODU5OGZiZWVjZDRiZDkwMDk1MzdlMTRiOTNlMjk1OTFiYjA1NWQ"
+          Img2="https://i.imgur.com/FPm2ngR.png"
           text1="SUMMER MEIN SUKOON SE RISHTA JODO"
           text2="PERSONAL GROOMING CARE TAKER"
         />

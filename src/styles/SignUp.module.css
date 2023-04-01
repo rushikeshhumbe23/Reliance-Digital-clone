@@ -1,0 +1,68 @@
+.signup_empty{
+    width: 100%;
+    height: 157px;
+}
+.signup_main{
+   background-color:#e6f5ff ;
+   width: 100%;
+   height: 100%;
+   border: 1px solid #e6f5ff;
+}
+.form_cont{
+    width:25%;
+    margin: 30px auto;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 30px;
+    background-color: white;
+}
+.form_cont >  form{
+    display: flex;
+    flex-direction: column;
+}
+.link_to_login{
+    text-decoration: none;
+    color: rgb(86, 163, 218);
+}
+.link_to_login:hover{
+    text-decoration: underline;
+}
+.address_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.address_cont > input{
+    width: 40%;
+}
+.form_cont >  form input{
+    height: 27px;
+    padding-left: 3%;
+    outline: none;
+    border: 1px solid #63bcf7;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.register_BTN{
+    height:35px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #63bcf7;
+}
+.register_BTN:hover{
+    background-color: #1987d1;
+}
+.mandetory_fileds{
+    color: red;
+}
+.passAuth{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin: 0px 0px 10px 0px;
+}
+.signup_heading{
+    font-size: 30px;
+    font-weight: 600;
+}
