@@ -1,4 +1,4 @@
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Navigation, Pagination, Autoplay, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -19,10 +19,11 @@ export default ({ Data1, Data2, Img1, Img2, text1, text2 }) => {
         <div style={{ width: "80%" }}>
           <div style={{ width: "100%" }}>
             <Swiper
-              modules={[Navigation, Pagination, Scrollbar, A11y]}
+              modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
               spaceBetween={50}
               slidesPerView={4}
               navigation
+              autoplay={{ delay: 2000 }}
             >
               {Data1.map((ele, i) => (
                 <SwiperSlide key={i + 1}>
@@ -43,10 +44,11 @@ export default ({ Data1, Data2, Img1, Img2, text1, text2 }) => {
         <div style={{ width: "80%" }}>
           <div style={{ width: "100%" }}>
             <Swiper
-              modules={[Navigation, Pagination, Scrollbar, A11y]}
+              modules={[Navigation, Pagination, Scrollbar, Autoplay, A11y]}
               spaceBetween={50}
               slidesPerView={4}
               navigation
+              autoplay={{ delay: 2000 }}
             >
               {Data2.map((ele, i) => (
                 <SwiperSlide key={i + 1}>

@@ -16,12 +16,13 @@ import SignUp from "../Pages/SignUp";
 import Televisions from "../Pages/Televisions";
 import Singleproduct from "../Pages/Singleproduct";
 import Accessories from "../Pages/Accessories";
+import { ChakraProvider } from "@chakra-ui/react";
 
 import PrivateRoutes from "./PrivateRoutes";
 
-function AllRoutes() {
+// <ChakraProvider><Login /></ChakraProvider>
 
-  
+function AllRoutes() {
   return (
     <>
       <Routes>

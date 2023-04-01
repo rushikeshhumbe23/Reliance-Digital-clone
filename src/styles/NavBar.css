@@ -160,6 +160,9 @@
         position: absolute;
         right:10px ;
     }
+    .navbar_links{
+        font-size: 10px;
+    }
     .search_button{
         margin-right: 15px;
     }

@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/NavrightList.css";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Person2Icon from "@mui/icons-material/Person2";
-import styled from "@emotion/styled";
+import { Link } from "react-router-dom";
 
 function NavrightList({ open }) {
   return (
@@ -17,9 +17,11 @@ function NavrightList({ open }) {
       </li>
       <li>|</li>
       <li>
-        <span>
-          <Person2Icon /> Login
-        </span>
+        <Link style={{ textDecoration: "none", color: "white" }} to="/login">
+          <span>
+            <Person2Icon /> Login
+          </span>
+        </Link>
       </li>
     </ul>
   );
