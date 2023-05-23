@@ -18,9 +18,14 @@ It is an E-commerce website to buy Electronics Online at India's Best Online Ele
 <li>Login Page</li>
 <br/>
 <img  src="https://github-production-user-asset-6210df.s3.amazonaws.com/115465746/240155002-4c368523-54e4-491c-bf42-b8cb7123db6e.PNG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230523T063737Z&X-Amz-Expires=300&X-Amz-Signature=2de4824da32a0c461b46fcd3f37749b9c0b609b132f3e886beb4afd28d864d19&X-Amz-SignedHeaders=host&actor_id=115465746&key_id=0&repo_id=619929141" alt="Login Page" />
+<br/>
+<br/>
+<li>Sign Up Page</li>
+<br/>
+<img src=""  alt="Sign Up Page" />
+<br/>
+<br/>![signup](https://github.com/rushikeshhumbe23/Reliance-Digital-clone/assets/115465746/fd4d0674-4d2f-40ad-9184-15c099c61bec)
 
-<br/>
-<br/>
 <li>Footer</li>
 <br/>
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/115465746/240150784-caeb1f92-47c0-4b9a-9904-85abc032aeb7.PNG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230523T061918Z&X-Amz-Expires=300&X-Amz-Signature=b685730e967f31d92c530a6e0192a7dfe9af2fed7f3efb74c1be71df990fe087&X-Amz-SignedHeaders=host&actor_id=115465746&key_id=0&repo_id=619929141"  alt="Footer Page"/>
