@@ -12,11 +12,12 @@ It is an E-commerce website to buy Electronics Online at India's Best Online Ele
 <br/>
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/115465746/240153049-8c5163d7-9820-4b92-943e-157bcac04929.PNG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230523T062537Z&X-Amz-Expires=300&X-Amz-Signature=f0750d2d5125763a69094784905cd033d6ba4546847705fec595308d71ea9654&X-Amz-SignedHeaders=host&actor_id=115465746&key_id=0&repo_id=619929141"  alt="Navigation Bar"/>
 <br/>
-![nav2](https://github.com/rushikeshhumbe23/Reliance-Digital-clone/assets/115465746/1d0afd2e-f26e-430d-b5e7-33e53e6f119f)
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/115465746/240153688-1d0afd2e-f26e-430d-b5e7-33e53e6f119f.PNG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230523T063544Z&X-Amz-Expires=300&X-Amz-Signature=7a8e935152d46a25a3dd2c9e1e32ba177ec452c6d5bb99dca705da2bb7dc1a39&X-Amz-SignedHeaders=host&actor_id=115465746&key_id=0&repo_id=619929141"  alt="responsive navbar" />
 <br/>
 <br/>
 <li>Login Page</li>
 <br/>
+<img  src="" alt="Ligin Page" />
 ![login](https://github.com/rushikeshhumbe23/Reliance-Digital-clone/assets/115465746/4c368523-54e4-491c-bf42-b8cb7123db6e)
 <br/>
 <br/>
