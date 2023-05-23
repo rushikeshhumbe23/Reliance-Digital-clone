@@ -22,9 +22,9 @@ It is an E-commerce website to buy Electronics Online at India's Best Online Ele
 <br/>
 <li>Sign Up Page</li>
 <br/>
-<img src=""  alt="Sign Up Page" />
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/115465746/240157005-fd4d0674-4d2f-40ad-9184-15c099c61bec.PNG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230523%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230523T064235Z&X-Amz-Expires=300&X-Amz-Signature=a362d9a8930e11a1dd30a4a7e9126f33d14cb96a77720d0cff91e95dea10b35a&X-Amz-SignedHeaders=host&actor_id=115465746&key_id=0&repo_id=619929141"  alt="Sign Up Page" />
 <br/>
-<br/>![signup](https://github.com/rushikeshhumbe23/Reliance-Digital-clone/assets/115465746/fd4d0674-4d2f-40ad-9184-15c099c61bec)
+<br/>
 
 <li>Footer</li>
 <br/>
